@@ -1,0 +1,288 @@
+/* START MAIN COMPONENTS  */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+@keyframes typing {
+    1%{content: '|';}
+    2%{content: 'D|';}
+    3%{content: 'De|';}
+    4%{content: 'Des|';}
+    5%{content: 'Desi|';}
+    6%{content: 'Desig|';}
+    7%{content: 'Design|';}
+    8%{content: 'Designe|';}
+    9%{content: 'Designer|';}
+    10%{content: 'Designer';}
+    11%{content: 'Designer|';}
+    12%{content: 'Designer';}
+    13%{content: 'Designer|';}
+    14%{content: 'Designer';}
+    15%{content: 'Designer|';}
+    16%{content: 'Designe|';}
+    17%{content: 'Design|';}
+    18%{content: 'Desig|';}
+    19%{content: 'Desi|';}
+    20%{content: 'Des|';}
+    21%{content: 'De|';}
+    22%{content: 'Dev|';}
+    23%{content: 'Deve|';}
+    24%{content: 'Devel|';}
+    25%{content: 'Devele|';}
+    26%{content: 'Develep|';}
+    27%{content: 'Develepe|';}
+    28%{content: 'Develeper|';}
+    29%{content: 'Develeper';}
+    30%{content: 'Develeper|';}
+    31%{content: 'Develeper';}
+    32%{content: 'Develeper|';}
+    33%{content: 'Develeper';}
+    34%{content: 'Develeper|';}
+    35%{content: 'Develepe|';}
+    36%{content: 'Develep|';}
+    37%{content: 'Devele|';}
+    38%{content: 'Devel|';}
+    39%{content: 'Deve|';}
+    40%{content: 'Dev|';}
+    41%{content: 'De|';}
+    42%{content: 'D|';}
+    43%{content: '|';}
+    44%{content: 'F|';}
+    45%{content: 'Fr|';}
+    46%{content: 'Fre|';}
+    47%{content: 'Free|';}
+    48%{content: 'Freel|';}
+    49%{content: 'Freela|';}
+    50%{content: 'Freelan|';}
+    51%{content: 'Freelanc|';}
+    52%{content: 'Freelance|';}
+    53%{content: 'Freelancer|';}
+    54%{content: 'Freelancer';}
+    55%{content: 'Freelancer|';}
+    56%{content: 'Freelancer';}
+    57%{content: 'Freelancer|';}
+    58%{content: 'Freelancer';}
+    59%{content: 'Freelancer|';}
+    60%{content: 'Freelance|';}
+    61%{content: 'Freelanc|';}
+    62%{content: 'Freelan|';}
+    63%{content: 'Freela|';}
+    64%{content: 'Freel|';}
+    65%{content: 'Free|';}
+    66%{content: 'Fre|';}
+    67%{content: 'Fr|';}
+    68%{content: 'F|';}
+    69%{content: 'P|';}
+    70%{content: 'Ph|';}
+    71%{content: 'Pho|';}
+    72%{content: 'Phot|';}
+    73%{content: 'Photo|';}
+    74%{content: 'Photog|';}
+    75%{content: 'Photogr|';}
+    76%{content: 'Photogra|';}
+    77%{content: 'Photograp|';}
+    78%{content: 'Photograph|';}
+    79%{content: 'Photographe|';}
+    80%{content: 'Photographer|';}
+    81%{content: 'Photographer';}
+    82%{content: 'Photographer|';}
+    83%{content: 'Photographer';}
+    84%{content: 'Photographer|';}
+    85%{content: 'Photographer';}
+    86%{content: 'Photographer|';}
+    87%{content: 'Photographe|';}
+    88%{content: 'Photograph|';}
+    89%{content: 'Photograp|';}
+    90%{content: 'Photogra|';}
+    91%{content: 'Photogr|';}
+    92%{content: 'Photog|';}
+    93%{content: 'Photo|';}
+    94%{content: 'Phot|';}
+    95%{content: 'Pho|';}
+    96%{content: 'Ph|';}
+    97%{content: 'P|';}
+    98%{content: '|';}
+    99%{content: '';}
+    100%{content: '|';}
+}
+
+
+  /* start section main title  */
+    .section-title {
+        padding: 50px 0px;
+    }
+    .section-title span{  
+        color: #e65f78;
+        display: inline-block;
+        font-family: poppins;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 4px;
+    }
+    .section-title h3{
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+  /* end section main title  */
+/* END MAIN COMPONENTS  */
+/* START HOME SECTION  */
+ .home {
+    height: 100vh;
+    background-image: url(images/1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.home .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+    z-index: 1;
+}
+/* START NAVBAR  */
+.navbar .logo {
+    width: 50px;
+}
+.navbar ul li a {
+    font-weight: 500;
+    color: black !important;
+}
+.navbar ul li{
+    margin: 0px 10px;
+}
+.navbar ul li a {
+    font-weight: 500;
+    color: black !important;
+    transition: all 1s;
+}
+.navbar ul li:hover a {
+    color: #e65f78 !important;
+}
+.navbar-light .navbar-toggler {
+    color: black !important;
+    border-color: transparent !important;
+}
+.navbar-toggler i {
+    font-size: 30px;
+}
+@media screen and (max-width:992px){
+  
+    .navbar-nav {
+        position: absolute;
+        background-color: white;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        border-top: 1px solid #ccc;
+        z-index: 100;
+    }
+    .navbar-nav .nav-link {
+        padding-left: 15px !important;
+    }
+    .navbar ul li{
+        width: 100%;
+    }
+}
+/* END NAVBAR  */
+
+.content .img-wrapper img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 10px solid #162c39;
+}
+.content .name-wrapper h3 {
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
+
+}
+.content .name-wrapper h3 span {
+    color: #e65f78;
+}
+.content .text-typing p {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 60px;
+    position: relative;
+        left: -65px;
+
+}
+.content .text-typing p::after {
+    content: '';
+    position: absolute;
+    animation-name: typing ;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+
+.spin-setting {
+    background-color: black;
+    top: 100px;
+    right: 0px;
+    width: 45px;
+    height: 50px;
+    padding: 10px;
+    
+}
+ /* END HOME SECTION  */
+
+ /* START ABOUT SECTION  */
+.about {
+     padding: 50px 0px;
+}
+.about .img-wrapper {
+    position: relative;
+
+}
+.about .img-wrapper img {
+    position: relative;
+
+}
+.about .img-wrapper::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 10px solid black;
+    z-index: -10;
+    top: 30px;
+    left: 30px;
+}
+.about .content .content-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.about .content .content-title h3 span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #e65f78;
+}
+.about .content .content-title span::after {
+    content: '';
+    position: absolute;
+    animation-name: typing ;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.about .content-text{
+    margin-bottom: 23px;
+}
+.about .content-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+}
+.about .content-text p span{
+    color: #e65f78;
+    font-style:italic;
+}
+ /* END ABOUT SECTION  */
