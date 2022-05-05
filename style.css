@@ -108,24 +108,24 @@ body {
 }
 
 
-  /* start section main title  */
-    .section-title {
-        padding: 50px 0px;
-    }
-    .section-title span{  
-        color: #e65f78;
-        display: inline-block;
-        font-family: poppins;
-        font-weight: 500;
-        text-transform: uppercase;
-        margin-bottom: 4px;
-    }
-    .section-title h3{
-        font-size: 30px;
-        font-weight: 800;
-    }
+/* start section main title  */
+.section-title {
+    padding: 50px 0px;
+}
+.section-title span{  
+    color: #e65f78;
+    display: inline-block;
+    font-family: poppins;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+.section-title h3{
+    font-size: 30px;
+    font-weight: 800;
+}
 
-  /* end section main title  */
+/* end section main title  */
 
 /* END MAIN COMPONENTS  */
 /* START HOME SECTION  */
@@ -170,9 +170,12 @@ body {
 .navbar-toggler i {
     font-size: 30px;
 }
+ul.navbar-nav {
+    transition: all 5s;
+}
 @media screen and (max-width:992px){
-  
-    .navbar-nav {
+   
+    .links:hover .navbar-collapse {
         position: absolute;
         background-color: white;
         top: 70px;
