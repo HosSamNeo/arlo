@@ -365,10 +365,54 @@ body {
     font-size: 18px;
     color: black;
 }
-
 /* END SERVICES SECTION  */
 
 /* START PORTFOLIO SECTION  */
-.portfolio{}
-
+.portfolio{
+    padding: 70px 0px;
+}
+.portfolio .nav-item .nav-link{
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+}
+.portfolio .nav-item .nav-link.active{
+    background-color: transparent !important;
+    color: #e65f78;
+}
+.portfolio #pills-tab {
+    margin-left: -10px;
+}
+.portfolio img {
+    transition: all 0.5s;
+    max-height: 300px;
+    min-height: 300px;
+}
+.portfolio img:hover {
+    transform: scale(1.2);
+}
 /* END PORTFOLIO SECTION  */
+
+/* START COUNTER SECTION  */
+.counter {
+    background-image: url(images/counter-bg.JPG);
+    position: relative;
+    background-size: cover;
+}
+.counter h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.counter p {
+    font-weight: 400;
+}
+/* END COUNTER SECTION  */
+
+/* START NEWS SECTION  */
+/* END NEWS SECTION  */
+
+
+
+
+
