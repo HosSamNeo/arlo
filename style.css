@@ -327,3 +327,48 @@ body {
     }
 }
  /* END ABOUT SECTION  */
+
+/* START SERVICES SECTION  */
+.services {
+    padding: 70px 0px;
+    background-color: #f9f9f9;
+}
+
+.services .service .service-box {
+    background-color: white;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+.services .service .service-box:hover {
+    Box-shadow:0 5px 5px rgba(0,0,0,0.15), 0 5px 5px rgba(0,0,0,0.15) !important;
+}
+.services .service .service-box i{
+    color: #e65f78;
+    font-size: 100px;
+    margin-bottom: 20px;
+
+}
+.services .service .service-box h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.services .serv-contact {
+    font-weight: 500;
+    font-size: 18px;
+    color: #333;
+    margin: 30px 0px;
+}
+.services .serv-contact a{
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+
+/* END SERVICES SECTION  */
+
+/* START PORTFOLIO SECTION  */
+.portfolio{}
+
+/* END PORTFOLIO SECTION  */
